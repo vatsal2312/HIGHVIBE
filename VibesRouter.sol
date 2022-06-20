@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: GPL-3.0
 pragma solidity ^0.8.4;
 
-import '@uniswap/lib/contracts/libraries/TransferHelper.sol';
+import './TransferHelper.sol';
 
-import "./interfaces/IVibesFactory.sol";
-import "./libraries/VibesLibrary.sol";
-import "./libraries/SafeMath.sol";
-import "./interfaces/IWETH.sol";
+import "./IVibesFactory.sol";
+import "./VibesLibrary.sol";
+import "./SafeMath.sol";
+import "./IWETH.sol";
 
 contract VibesRouter {
     using SafeMath for uint256;
