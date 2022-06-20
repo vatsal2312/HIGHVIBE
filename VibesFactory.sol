@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-3.0
 pragma solidity ^0.8.4;
 
-import './interfaces/IVibesFactory.sol';
+import './IVibesFactory.sol';
 import './VibesLPPair.sol';
 
 contract VibesFactory is IVibesFactory {
