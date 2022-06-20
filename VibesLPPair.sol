@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: GPL-3.0
 pragma solidity ^0.8.4;
 
-import './interfaces/IVibesPair.sol';
+import './IVibesPair.sol';
 import './VibesLPERC20.sol';
-import "@openzeppelin/contracts/utils/math/SafeMath.sol";
-import "@openzeppelin/contracts/access/Ownable.sol";
-import './libraries/Math.sol';
+import "./SafeMath.sol";
+import "./Ownable.sol";
+import './Math.sol';
 
 contract VibesLPPair is IVibesPair, VibesLPERC20, Ownable{
     using SafeMath  for uint;
