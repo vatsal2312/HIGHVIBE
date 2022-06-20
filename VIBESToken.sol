@@ -2,10 +2,10 @@
 pragma solidity ^0.8.4;
 
 
-import "@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol";
-import "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol";
-import "@openzeppelin/contracts-upgradeable/security/PausableUpgradeable.sol";
-import "@openzeppelin/contracts-upgradeable/utils/math/SafeMathUpgradeable.sol";
+import "./ERC20Upgradeable.sol";
+import "./OwnableUpgradeable.sol";
+import "./PausableUpgradeable.sol";
+import "./SafeMathUpgradeable.sol";
 
 
 contract VIBESToken is ERC20Upgradeable, OwnableUpgradeable, PausableUpgradeable {
