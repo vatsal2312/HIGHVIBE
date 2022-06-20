@@ -3,9 +3,9 @@
 pragma solidity ^0.8.11;
 
 import "./VIBESToken.sol";
-import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
-import "@openzeppelin/contracts/access/Ownable.sol";
-import "@openzeppelin/contracts/utils/math/SafeMath.sol";
+import "./ReentrancyGuard.sol";
+import "./Ownable.sol";
+import "./SafeMath.sol";
 
 
 contract VIBESStaking is Ownable, ReentrancyGuard {
