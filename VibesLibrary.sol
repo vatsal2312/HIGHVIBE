@@ -2,10 +2,10 @@
 pragma solidity >=0.8.4;
 
 import "./SafeMath.sol";
-import "../interfaces/IVibesFactory.sol";
-import "../interfaces/IVibesPair.sol";
-import { IERC20 } from "@openzeppelin/contracts/token/ERC20/IERC20.sol";
-import { IERC20Permit } from "@openzeppelin/contracts/token/ERC20/extensions/draft-IERC20Permit.sol";
+import "./IVibesFactory.sol";
+import "./IVibesPair.sol";
+import { IERC20 } from "./IERC20.sol";
+import { IERC20Permit } from "./draft-IERC20Permit.sol";
 
 library VibesLibrary {
     using SafeMath for uint256;
