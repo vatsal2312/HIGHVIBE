@@ -3,7 +3,7 @@
 pragma solidity ^0.8.0;
 
 import "./VIBESProxy.sol";
-import "@openzeppelin/contracts/access/Ownable.sol";
+import "./Ownable.sol";
 
 
 contract ProxyAdmin is Ownable {
